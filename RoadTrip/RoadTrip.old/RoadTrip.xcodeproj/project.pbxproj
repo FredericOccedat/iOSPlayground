@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6817B0A15BF1B3A002F5B7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6817B0915BF1B3A002F5B7B /* UIKit.framework */; };
+		B6817B0C15BF1B3A002F5B7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6817B0B15BF1B3A002F5B7B /* Foundation.framework */; };
+		B6817B0E15BF1B3A002F5B7B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6817B0D15BF1B3A002F5B7B /* CoreGraphics.framework */; };
+		B6817B1415BF1B3A002F5B7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6817B1215BF1B3A002F5B7B /* InfoPlist.strings */; };
+		B6817B1615BF1B3A002F5B7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6817B1515BF1B3A002F5B7B /* main.m */; };
+		B6817B1A15BF1B3A002F5B7B /* RTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6817B1915BF1B3A002F5B7B /* RTAppDelegate.m */; };
+		B6817B1D15BF1B3A002F5B7B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6817B1B15BF1B3A002F5B7B /* MainStoryboard.storyboard */; };
+		B6817B2015BF1B3A002F5B7B /* RTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6817B1F15BF1B3A002F5B7B /* RTViewController.m */; };
+		B6817B4D15BF3480002F5B7B /* BurnRubber.aif in Resources */ = {isa = PBXBuildFile; fileRef = B6817B4115BF3480002F5B7B /* BurnRubber.aif */; };
+		B6817B4E15BF3480002F5B7B /* Button.png in Resources */ = {isa = PBXBuildFile; fileRef = B6817B4215BF3480002F5B7B /* Button.png */; };
+		B6817B4F15BF3480002F5B7B /* Button0.png in Resources */ = {isa = PBXBuildFile; fileRef = B6817B4315BF3480002F5B7B /* Button0.png */; };
+		B6817B5015BF3480002F5B7B /* Button1.png in Resources */ = {isa = PBXBuildFile; fileRef = B6817B4415BF3480002F5B7B /* Button1.png */; };
+		B6817B5115BF3480002F5B7B /* CarImage.png in Resources */ = {isa = PBXBuildFile; fileRef = B6817B4515BF3480002F5B7B /* CarImage.png */; };
+		B6817B5215BF3480002F5B7B /* CarRunning.aif in Resources */ = {isa = PBXBuildFile; fileRef = B6817B4615BF3480002F5B7B /* CarRunning.aif */; };
+		B6817B5315BF3480002F5B7B /* DestinationImage.png in Resources */ = {isa = PBXBuildFile; fileRef = B6817B4715BF3480002F5B7B /* DestinationImage.png */; };
+		B6817B5415BF3480002F5B7B /* NavBarImage.png in Resources */ = {isa = PBXBuildFile; fileRef = B6817B4815BF3480002F5B7B /* NavBarImage.png */; };
+		B6817B5515BF3480002F5B7B /* NYCImage.png in Resources */ = {isa = PBXBuildFile; fileRef = B6817B4915BF3480002F5B7B /* NYCImage.png */; };
+		B6817B5615BF3480002F5B7B /* SeeTheUSA.png in Resources */ = {isa = PBXBuildFile; fileRef = B6817B4A15BF3480002F5B7B /* SeeTheUSA.png */; };
+		B6817B5715BF3480002F5B7B /* SFImage.png in Resources */ = {isa = PBXBuildFile; fileRef = B6817B4B15BF3480002F5B7B /* SFImage.png */; };
+		B6817B5A15BF35BD002F5B7B /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = B6817B5815BF357A002F5B7B /* AppIcon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B6817B0515BF1B39002F5B7B /* RoadTrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoadTrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6817B0915BF1B3A002F5B7B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B6817B0B15BF1B3A002F5B7B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B6817B0D15BF1B3A002F5B7B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B6817B1115BF1B3A002F5B7B /* RoadTrip-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RoadTrip-Info.plist"; sourceTree = "<group>"; };
+		B6817B1315BF1B3A002F5B7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B6817B1515BF1B3A002F5B7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6817B1715BF1B3A002F5B7B /* RoadTrip-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RoadTrip-Prefix.pch"; sourceTree = "<group>"; };
+		B6817B1815BF1B3A002F5B7B /* RTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTAppDelegate.h; sourceTree = "<group>"; };
+		B6817B1915BF1B3A002F5B7B /* RTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTAppDelegate.m; sourceTree = "<group>"; };
+		B6817B1C15BF1B3A002F5B7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B6817B1E15BF1B3A002F5B7B /* RTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTViewController.h; sourceTree = "<group>"; };
+		B6817B1F15BF1B3A002F5B7B /* RTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTViewController.m; sourceTree = "<group>"; };
+		B6817B4115BF3480002F5B7B /* BurnRubber.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = BurnRubber.aif; sourceTree = "<group>"; };
+		B6817B4215BF3480002F5B7B /* Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button.png; sourceTree = "<group>"; };
+		B6817B4315BF3480002F5B7B /* Button0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button0.png; sourceTree = "<group>"; };
+		B6817B4415BF3480002F5B7B /* Button1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button1.png; sourceTree = "<group>"; };
+		B6817B4515BF3480002F5B7B /* CarImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CarImage.png; sourceTree = "<group>"; };
+		B6817B4615BF3480002F5B7B /* CarRunning.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = CarRunning.aif; sourceTree = "<group>"; };
+		B6817B4715BF3480002F5B7B /* DestinationImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DestinationImage.png; sourceTree = "<group>"; };
+		B6817B4815BF3480002F5B7B /* NavBarImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NavBarImage.png; sourceTree = "<group>"; };
+		B6817B4915BF3480002F5B7B /* NYCImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NYCImage.png; sourceTree = "<group>"; };
+		B6817B4A15BF3480002F5B7B /* SeeTheUSA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SeeTheUSA.png; sourceTree = "<group>"; };
+		B6817B4B15BF3480002F5B7B /* SFImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SFImage.png; sourceTree = "<group>"; };
+		B6817B5815BF357A002F5B7B /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6817B0215BF1B39002F5B7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6817B0A15BF1B3A002F5B7B /* UIKit.framework in Frameworks */,
+				B6817B0C15BF1B3A002F5B7B /* Foundation.framework in Frameworks */,
+				B6817B0E15BF1B3A002F5B7B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6817AFA15BF1B39002F5B7B = {
+			isa = PBXGroup;
+			children = (
+				B6817B5815BF357A002F5B7B /* AppIcon.png */,
+				B6817B3F15BF3480002F5B7B /* RoadTrip Resources */,
+				B6817B0F15BF1B3A002F5B7B /* RoadTrip */,
+				B6817B0815BF1B39002F5B7B /* Frameworks */,
+				B6817B0615BF1B39002F5B7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6817B0615BF1B39002F5B7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6817B0515BF1B39002F5B7B /* RoadTrip.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6817B0815BF1B39002F5B7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6817B0915BF1B3A002F5B7B /* UIKit.framework */,
+				B6817B0B15BF1B3A002F5B7B /* Foundation.framework */,
+				B6817B0D15BF1B3A002F5B7B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6817B0F15BF1B3A002F5B7B /* RoadTrip */ = {
+			isa = PBXGroup;
+			children = (
+				B6817B1815BF1B3A002F5B7B /* RTAppDelegate.h */,
+				B6817B1915BF1B3A002F5B7B /* RTAppDelegate.m */,
+				B6817B1B15BF1B3A002F5B7B /* MainStoryboard.storyboard */,
+				B6817B1E15BF1B3A002F5B7B /* RTViewController.h */,
+				B6817B1F15BF1B3A002F5B7B /* RTViewController.m */,
+				B6817B1015BF1B3A002F5B7B /* Supporting Files */,
+			);
+			path = RoadTrip;
+			sourceTree = "<group>";
+		};
+		B6817B1015BF1B3A002F5B7B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6817B1115BF1B3A002F5B7B /* RoadTrip-Info.plist */,
+				B6817B1215BF1B3A002F5B7B /* InfoPlist.strings */,
+				B6817B1515BF1B3A002F5B7B /* main.m */,
+				B6817B1715BF1B3A002F5B7B /* RoadTrip-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6817B3F15BF3480002F5B7B /* RoadTrip Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B6817B4115BF3480002F5B7B /* BurnRubber.aif */,
+				B6817B4215BF3480002F5B7B /* Button.png */,
+				B6817B4315BF3480002F5B7B /* Button0.png */,
+				B6817B4415BF3480002F5B7B /* Button1.png */,
+				B6817B4515BF3480002F5B7B /* CarImage.png */,
+				B6817B4615BF3480002F5B7B /* CarRunning.aif */,
+				B6817B4715BF3480002F5B7B /* DestinationImage.png */,
+				B6817B4815BF3480002F5B7B /* NavBarImage.png */,
+				B6817B4915BF3480002F5B7B /* NYCImage.png */,
+				B6817B4A15BF3480002F5B7B /* SeeTheUSA.png */,
+				B6817B4B15BF3480002F5B7B /* SFImage.png */,
+			);
+			path = "RoadTrip Resources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6817B0415BF1B39002F5B7B /* RoadTrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6817B2315BF1B3A002F5B7B /* Build configuration list for PBXNativeTarget "RoadTrip" */;
+			buildPhases = (
+				B6817B0115BF1B39002F5B7B /* Sources */,
+				B6817B0215BF1B39002F5B7B /* Frameworks */,
+				B6817B0315BF1B39002F5B7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoadTrip;
+			productName = RoadTrip;
+			productReference = B6817B0515BF1B39002F5B7B /* RoadTrip.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6817AFC15BF1B39002F5B7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RT;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = B6817AFF15BF1B39002F5B7B /* Build configuration list for PBXProject "RoadTrip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B6817AFA15BF1B39002F5B7B;
+			productRefGroup = B6817B0615BF1B39002F5B7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6817B0415BF1B39002F5B7B /* RoadTrip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6817B0315BF1B39002F5B7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6817B1415BF1B3A002F5B7B /* InfoPlist.strings in Resources */,
+				B6817B1D15BF1B3A002F5B7B /* MainStoryboard.storyboard in Resources */,
+				B6817B4D15BF3480002F5B7B /* BurnRubber.aif in Resources */,
+				B6817B4E15BF3480002F5B7B /* Button.png in Resources */,
+				B6817B4F15BF3480002F5B7B /* Button0.png in Resources */,
+				B6817B5015BF3480002F5B7B /* Button1.png in Resources */,
+				B6817B5115BF3480002F5B7B /* CarImage.png in Resources */,
+				B6817B5215BF3480002F5B7B /* CarRunning.aif in Resources */,
+				B6817B5315BF3480002F5B7B /* DestinationImage.png in Resources */,
+				B6817B5415BF3480002F5B7B /* NavBarImage.png in Resources */,
+				B6817B5515BF3480002F5B7B /* NYCImage.png in Resources */,
+				B6817B5615BF3480002F5B7B /* SeeTheUSA.png in Resources */,
+				B6817B5715BF3480002F5B7B /* SFImage.png in Resources */,
+				B6817B5A15BF35BD002F5B7B /* AppIcon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6817B0115BF1B39002F5B7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6817B1615BF1B3A002F5B7B /* main.m in Sources */,
+				B6817B1A15BF1B3A002F5B7B /* RTAppDelegate.m in Sources */,
+				B6817B2015BF1B3A002F5B7B /* RTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B6817B1215BF1B3A002F5B7B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6817B1315BF1B3A002F5B7B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B6817B1B15BF1B3A002F5B7B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6817B1C15BF1B3A002F5B7B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6817B2115BF1B3A002F5B7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B6817B2215BF1B3A002F5B7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6817B2415BF1B3A002F5B7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RoadTrip/RoadTrip-Prefix.pch";
+				INFOPLIST_FILE = "RoadTrip/RoadTrip-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B6817B2515BF1B3A002F5B7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RoadTrip/RoadTrip-Prefix.pch";
+				INFOPLIST_FILE = "RoadTrip/RoadTrip-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6817AFF15BF1B39002F5B7B /* Build configuration list for PBXProject "RoadTrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6817B2115BF1B3A002F5B7B /* Debug */,
+				B6817B2215BF1B3A002F5B7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6817B2315BF1B3A002F5B7B /* Build configuration list for PBXNativeTarget "RoadTrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6817B2415BF1B3A002F5B7B /* Debug */,
+				B6817B2515BF1B3A002F5B7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6817AFC15BF1B39002F5B7B /* Project object */;
+}
